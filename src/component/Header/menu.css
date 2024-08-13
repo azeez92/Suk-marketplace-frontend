@@ -19,7 +19,7 @@
   display: flex;
   gap: 2rem;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 70px;
   list-style: none;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .desk-comp{
-  display: block;
+  display: flex;
 }
 
 /* .....Break point ....... */
@@ -87,7 +87,7 @@
   
 
   .mobile-comp {
-    display: block;
+    display: inline-block;
   }
 
 
