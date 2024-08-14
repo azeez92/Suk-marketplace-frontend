@@ -1,0 +1,63 @@
+.slider {
+  width: 80%;
+  height: 30%;
+  margin: 30px auto;
+  position: relative;
+}
+
+.slider_content {
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.603); 
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(12, 12, 12);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.slider_content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.slider_content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+hr {
+  width: 60%;
+  margin-left: 30%;
+  align-items: center;
+  color: orange;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buy_now, 
+.sell_now {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.buy_now {
+  background-color: orange;
+  color: white;
+}
+
+.sell_now {
+  background-color: black;
+  color: white;
+}
