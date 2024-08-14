@@ -6,7 +6,7 @@ import './App.css'
 import serviceFeature from './components/serviceFeature'
 import footer from './components/footer'
 
-
+import
 
 
 
@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    
+    <h2>my name</h2>
    
 )
 }
